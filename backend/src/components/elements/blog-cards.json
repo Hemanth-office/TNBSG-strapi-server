@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_elements_blog_cards",
+  "info": {
+    "displayName": "blog cards",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blog_title": {
+      "type": "blocks"
+    },
+    "url": {
+      "type": "string"
+    },
+    "blog_post": {
+      "type": "date"
+    },
+    "sblogimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

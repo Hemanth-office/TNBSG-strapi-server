@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_what_we_dos",
+  "info": {
+    "displayName": "What we Do"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

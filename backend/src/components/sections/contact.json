@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_contacts",
+  "info": {
+    "displayName": "contact",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Phone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.contact"
+    },
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.contact"
+    },
+    "Address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.contact"
+    }
+  }
+}

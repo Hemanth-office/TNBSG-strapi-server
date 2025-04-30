@@ -1,0 +1,214 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "shortName": "Home Page",
+                "slug": "home",
+                "heading": "home page",
+                "description": "home page description",
+                "createdAt": "2023-03-08T14:13:57.041Z",
+                "updatedAt": "2024-11-20T16:41:26.925Z",
+                "publishedAt": "2024-11-20T10:59:55.725Z",
+                "locale": "en",
+                "contentSections": [
+                    {
+                        "id": 1,
+                        "__component": "sections.hero"
+                    },
+                    {
+                        "id": 1,
+                        "__component": "sections.overview-section",
+                        "title": "TNBSG [Overview]"
+                    },
+                    
+                    {
+                        "id": 1,
+                        "__component": "sections.features",
+                        "heading": "Featured [Programs]",
+                        "description": null,
+                        "feature": [
+                            {
+                                "id": 1,
+                                "title": "Standard Judging competition",
+                                "description": "The Standard Judging Competition at TNBSG is designed for our young members to develop essential scouting skills through friendly competition.",
+                                "showLink": true,
+                                "newTab": true,
+                                "url": "https://Scout.com/",
+                                "text": "Learn more",
+                                "media": {
+                                    "data": {
+                                        "id": 29,
+                                        "attributes": {
+                                            "url": "/uploads/66e1650858d04a12b2d820e5_NB_img_30cc8ac8be.webp",
+                                            "alternativeText": null,
+                                            "caption": null,
+                                            "width": 409,
+                                            "height": 222
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "title": "Adult Leaders Special Courses ",
+                                "description": "Our Special Courses for Adult Leaders focus on enhancing core Scouting skills such as mapping, estimation, pioneering, and more. ",
+                                "showLink": true,
+                                "newTab": true,
+                                "url": "https://scout.io",
+                                "text": "Learn more",
+                                "media": {
+                                    "data": {
+                                        "id": 30,
+                                        "attributes": {
+                                            "url": "/uploads/66e1650823d6731ad232861f_NB_img_c3c970ea91.webp",
+                                            "alternativeText": null,
+                                            "caption": null,
+                                            "width": 410,
+                                            "height": 222
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "title": "Beach Hike",
+                                "description": "The TNBSG Beach Hike is a thrilling outdoor adventure open to both young members and adult leaders. This hike offers participants an opportunity to connect with nature, build resilience.",
+                                "showLink": true,
+                                "newTab": true,
+                                "url": "https://scout.io",
+                                "text": "Learn more",
+                                "media": {
+                                    "data": {
+                                        "id": 31,
+                                        "attributes": {
+                                            "url": "/uploads/671326400d9c47edb6271a07_FP_img_dfc8193fd5.webp",
+                                            "alternativeText": null,
+                                            "caption": null,
+                                            "width": 348,
+                                            "height": 212
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "__component": "sections.features",
+                        "heading": "Upcoming [Events]",
+                        "description": null,
+                        "feature": [
+                            {
+                                "id": 4,
+                                "title": null,
+                                "description": null,
+                                "showLink": false,
+                                "newTab": false,
+                                "url": null,
+                                "text": null,
+                                "media": {
+                                    "data": null
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "title": "Special Diamond jubilee Jamboree",
+                                "description": "Join us in January 2025 for the Special Diamond Jubilee Jamboree, a grand celebration marking two historic milestones: the 100th birth anniversary of Dr. Kalaignar Karunanidhi and 75 years of Bharat Scouts and Guides in India. This extraordinary event will bring together Scouts, Guides, and leaders from across the nation to celebrate our legacy of service, leadership, and unity. Be part of this momentous occasion and experience the spirit of Scouting like never before!",
+                                "showLink": false,
+                                "newTab": false,
+                                "url": null,
+                                "text": null,
+                                "media": {
+                                    "data": {
+                                        "id": 32,
+                                        "attributes": {
+                                            "url": "/uploads/67132264d54753b27c221169_UE_img_9cb98d9ee0.webp",
+                                            "alternativeText": null,
+                                            "caption": null,
+                                            "width": 702,
+                                            "height": 468
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "__component": "sections.lead-form",
+                        "title": "Join our community.",
+                        "emailPlaceholder": "Enter your email",
+                        "location": "main page",
+                        "description": "Doloribus consectetur quasi ipsa quo neque culpa blanditiis ducimus recusandae a veritatis optio cumque, in harum ad nam!",
+                        "submitButton": {
+                            "id": 1,
+                            "text": "Submit",
+                            "type": "primary"
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "__component": "sections.volunteer",
+                        "text": [
+                            {
+                                "type": "paragraph",
+                                "children": [
+                                    {
+                                        "type": "text",
+                                        "text": "Ready for adventure and community impact? Join TNBSG to explore the outdoors, develop leadership skills, and make new friends. Or  volunteer to mentor and inspire young people while making a difference. Click below to get started! "
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "__component": "sections.home-newsblog-section",
+                        "newsBlog_heading": [
+                            {
+                                "type": "paragraph",
+                                "children": [
+                                    {
+                                        "type": "text",
+                                        "text": "NEWS & BLOG"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "__component": "sections.faq-section",
+                        "title": "Frequently Asked Questions",
+                        "descriptions": "FAQS section"
+                    },
+                    {
+                        "id": 2,
+                        "__component": "sections.volunteer",
+                        "text": [
+                            {
+                                "type": "paragraph",
+                                "children": [
+                                    {
+                                        "type": "text",
+                                        "text": "Donate to reach more young people and create a bigger impact around the Tamil Nadu through Scouting"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "seo": null
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 1
+        }
+    }
+}

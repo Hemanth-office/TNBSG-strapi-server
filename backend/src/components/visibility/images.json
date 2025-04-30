@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_visibility_images",
+  "info": {
+    "displayName": "images",
+    "icon": "eye"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "visibility": {
+      "type": "boolean"
+    }
+  }
+}

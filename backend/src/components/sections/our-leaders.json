@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_our_leaders",
+  "info": {
+    "displayName": "our leaders",
+    "icon": "emotionHappy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "blocks"
+    },
+    "leaders": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.leader"
+    }
+  }
+}

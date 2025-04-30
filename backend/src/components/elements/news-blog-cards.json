@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_news_blog_cards",
+  "info": {
+    "displayName": "news blog cards",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "newsBlog_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "newsBlog_title": {
+      "type": "blocks"
+    },
+    "newsBlog_description": {
+      "type": "blocks"
+    },
+    "newsBlog_post": {
+      "type": "date"
+    }
+  }
+}

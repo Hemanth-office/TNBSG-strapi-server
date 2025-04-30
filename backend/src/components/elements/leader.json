@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_elements_leaders",
+  "info": {
+    "displayName": "leader",
+    "icon": "emotionHappy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Button_visibility": {
+      "type": "boolean"
+    }
+  }
+}

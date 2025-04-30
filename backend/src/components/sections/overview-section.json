@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_overview_sections",
+  "info": {
+    "displayName": "Overview section",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.about"
+    },
+    "statistics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.statistics"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_blogs",
+  "info": {
+    "displayName": "blogs",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "main_blog": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.blog-important"
+    },
+    "small_blogs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.blog-cards"
+    }
+  }
+}

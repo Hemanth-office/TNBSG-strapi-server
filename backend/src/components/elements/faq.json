@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_faqs",
+  "info": {
+    "displayName": "faq",
+    "icon": "arrowDown"
+  },
+  "options": {},
+  "attributes": {
+    "titleQ": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_elements_sliders",
+  "info": {
+    "displayName": "hero_Slider",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slider_title": {
+      "type": "blocks"
+    },
+    "title_visibility": {
+      "type": "boolean"
+    },
+    "slider_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sliderimage_visibility": {
+      "type": "boolean"
+    },
+    "url": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean"
+    },
+    "slider_button_name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "showlink": {
+      "type": "boolean"
+    },
+    "sliderButton_visibility": {
+      "type": "boolean"
+    },
+    "slider_visibility": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_home_newsblog_sections",
+  "info": {
+    "displayName": "home newsblog section",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "newsblog_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.news-blog-cards"
+    },
+    "newsBlog_heading": {
+      "type": "blocks"
+    },
+    "NB_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button-link"
+    }
+  }
+}

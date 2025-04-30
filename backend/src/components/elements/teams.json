@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_elements_teams",
+  "info": {
+    "displayName": "teams",
+    "icon": "shield"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "short_biography": {
+      "type": "text"
+    },
+    "profile_picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "role": {
+      "type": "string"
+    },
+    "role_visibility": {
+      "type": "boolean"
+    },
+    "teamPerson_visibility": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_gallery_sections",
+  "info": {
+    "displayName": "gallery section",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
+    },
+    "gallery_images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.media"
+    }
+  }
+}

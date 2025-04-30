@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_our_histories",
+  "info": {
+    "displayName": "Our History",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "visibility.images"
+    }
+  }
+}

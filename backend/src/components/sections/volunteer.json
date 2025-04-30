@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_volunteer_s",
+  "info": {
+    "displayName": "Volunteer ",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "blocks",
+      "required": true
+    },
+    "volunteer_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
+    }
+  }
+}

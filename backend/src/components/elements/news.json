@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_elements_news",
+  "info": {
+    "displayName": "news",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "news_title": {
+      "type": "blocks"
+    },
+    "news_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "postDate": {
+      "type": "date"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

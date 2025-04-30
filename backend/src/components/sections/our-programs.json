@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_our_programs",
+  "info": {
+    "displayName": "Our Programs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "visibility.images"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_teams",
+  "info": {
+    "displayName": "teams",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "over_teams": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.teams"
+    }
+  }
+}

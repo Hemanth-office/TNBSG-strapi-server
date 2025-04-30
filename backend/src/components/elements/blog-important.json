@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_elements_blog_importants",
+  "info": {
+    "displayName": "blog Important",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blog_title": {
+      "type": "blocks"
+    },
+    "blog_description": {
+      "type": "blocks"
+    },
+    "blog_images": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "blog_post": {
+      "type": "date"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
