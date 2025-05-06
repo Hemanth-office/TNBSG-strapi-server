@@ -12,6 +12,7 @@
     "repo:upstream": "git fetch upstream && git merge upstream/main"
   },
   "dependencies": {
+    "@strapi/provider-upload-cloudinary": "^5.12.7",
     "concurrently": "^8.2.2",
     "npm-check-updates": "^16.14.15",
     "react-router-dom": "^6.0.0",
