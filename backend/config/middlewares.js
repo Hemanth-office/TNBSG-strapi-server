@@ -16,7 +16,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:5173'], // Add your React app's URL here
+      origin: ['https://tnbsg-scout.web.app'], // Add your React app's URL here
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     },
   },
